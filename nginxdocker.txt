@@ -1,0 +1,4 @@
+1)nginx is a web server like apache
+2)one needs nginx inorder to serve the application on the server. In local we can run using the npm or node modules which actually launches the application on the browser but in server using nginx or any other web server one can run the application and launch it.
+3)Dockerfile is without nginx,however the Dockerfile last line where the CMD runs using local node or npm
+4)Dockerfile_nginx.txt is the file which runs well in server where nginx is installed and application will be launched on server.
